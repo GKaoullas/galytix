@@ -1,0 +1,16 @@
+# Ignore Word2Vec model
+references/GoogleNews-vectors-negative300.bin
+
+# Ignore all binaries in references
+references/*.bin
+
+# Ignore Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+.venv/
